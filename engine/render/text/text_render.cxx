@@ -10,7 +10,7 @@ void rendertext(const char text[], const unsigned int w, const unsigned int h) {
         #ifdef _WIN32
             if (!f.loadFromFile("C:\\Windows\\Fonts\\ARIAL.TTF")) return;
         #elif __linux__
-            if (!f.loadFromFile("/mnt/c/GWSDL/engine/fonts/arial/ARIAL.TTF")) return;
+            if (!f.loadFromFile("engine/fonts/arial/ARIAL.TTF")) return;
         #endif
     }
 
