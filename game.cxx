@@ -1,13 +1,14 @@
+/*
+    Im So sorry guys but.. I need to cut all linux stuff in my project. Because
+    im cant support this system, im tired of errors...
+    
+
+    Sorry! If you can support linux to my project, Please make a normal .sh file of Makefile (NOT CMAKE!)
+*/
 #include "engine/all.hpp"
 
 int main() {
-    char linuxpath[64] = "engine/sprites/sprite.png";
-    char winpath[64] = "engine\\sprites\\sprite.png";
-    #ifdef __linux__
-        rendersprites(linuxpath, 400, 400, true);
-    #else
-        rendersprites(winpath, 400, 400, true);
-    #endif
+    rendersprites("texture\\sprite.png", 400, 400, true);
     rendertext("Hello From PROTOENGINE!", 400, 300);
     rendertext("Its Simple Game!", 400, 200);
     renderwindow(800, 600);

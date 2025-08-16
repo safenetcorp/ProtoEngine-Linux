@@ -1,7 +1,7 @@
 # PROTOENGINE
 
 **PROTOENGINE** is a simple 2D game engine built with **C++** and **SFML**, designed for quick prototyping of sprite-based games.
-
+**Sorry i Cant Support A Linux.. Im So Sorry but.. it so hard**
 
 ---
 

@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include "../../all.hpp"
+
 sf::Text t;
 
 void renderwindow(const unsigned int w, const unsigned int h) {

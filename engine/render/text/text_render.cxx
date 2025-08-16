@@ -3,15 +3,11 @@
 
 std::vector<sf::Text> texts;
 
-void rendertext(const char text[], const unsigned int w, const unsigned int h) {
+void rendertext(const char text[], const unsigned int x, const unsigned int y) {
     static sf::Font f;
 
     if (f.getInfo().family.empty()) {
-        #ifdef _WIN32
-            if (!f.loadFromFile("C:\\Windows\\Fonts\\ARIAL.TTF")) return;
-        #elif __linux__
-            if (!f.loadFromFile("engine/fonts/arial/ARIAL.TTF")) return;
-        #endif
+        if (!f.loadFromFile("C:\\Windows\\Fonts\\ARIAL.TTF") || !f.loadFromFile("fonts\\arial\\ARIAL.TTF")) return;
     }
 
     sf::Text t;
@@ -22,7 +18,7 @@ void rendertext(const char text[], const unsigned int w, const unsigned int h) {
 
     sf::FloatRect bounds = t.getLocalBounds();
     t.setOrigin(bounds.width / 2, bounds.height / 2);
-    t.setPosition(w / 2, h / 2);
+    t.setPosition(x / 2, y / 2);
 
     texts.push_back(t);
 }

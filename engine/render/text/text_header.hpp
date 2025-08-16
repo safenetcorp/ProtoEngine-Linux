@@ -6,10 +6,10 @@
 extern std::vector<sf::Text> texts;
 
 /**
- * @brief Отрисовывает текст в окне
+ * @brief [En] Rendering Text in window
  * 
- * @param text  Строка с текстом
- * @param w   Ширина окна
- * @param h   Высота окна
+ * @param text  [line with YOUR text]
+ * @param x [En] X Position
+ * @param y [En] Y Position
  */
-void rendertext(const char text[], const unsigned int w, const unsigned int h);
+void rendertext(const char text[], const unsigned int x, const unsigned int y);

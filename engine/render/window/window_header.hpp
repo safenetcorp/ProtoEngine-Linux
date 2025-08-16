@@ -2,9 +2,9 @@
 #include <cstring>
 
 /**
- * @brief Отрисовывает Окно
+ * @brief [En] Creating A Window!
  * 
- * @param w   Ширина окна
- * @param h   Высота окна
+ * @param w [En] Width Of Window
+ * @param h [En] Height Of Window
  */
 void renderwindow(const unsigned int w, const unsigned int h);
