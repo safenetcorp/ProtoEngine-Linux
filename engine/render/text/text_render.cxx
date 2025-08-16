@@ -7,7 +7,7 @@ void rendertext(const char text[], const unsigned int x, const unsigned int y) {
     static sf::Font f;
 
     if (f.getInfo().family.empty()) {
-        if (!f.loadFromFile("C:\\Windows\\Fonts\\ARIAL.TTF") || !f.loadFromFile("fonts\\arial\\ARIAL.TTF")) return;
+        if (!f.loadFromFile("fonts/arial/ARIAL.TTF")) return;
     }
 
     sf::Text t;
