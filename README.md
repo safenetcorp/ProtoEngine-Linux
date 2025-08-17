@@ -4,12 +4,11 @@
 **LINUX VERSION NOW!!**
 
 ---
+## 📰 What's New?
 
-## ✨ Features
-
-- Linux Support
-- Music Starter
-
+- Linux Support!
+- Added the ability to turn on music!
+- Building script was modified to better!
 ---
 
 ## 📦 Dependencies
