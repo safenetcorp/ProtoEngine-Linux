@@ -18,5 +18,9 @@ Before building **PROTOENGINE**, make sure you have the following installed:
 - **C++17 or newer** (tested with GCC, MinGW, and Clang)
 - [SFML 2.5+](https://www.sfml-dev.org/download.php)  
   - Modules: `system`, `window`, `graphics` , `audio`.
+---
 
+## 💫 End
+- Good luck with your game development!
+- By LethalStudio (aka ProtoEngine)!
 ---
